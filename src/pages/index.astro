@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ThemeItem from "../components/Theme.astro";
+import ThemesFile from "../assets/themes.json";
+---
+
+<Layout title="NetNewsWire Themes collection.">
+  <main>
+    <section class="mt-8">
+      <p class="text-lg">
+        This is a fan project and not affiliated with netnewswire in any way.
+        The sole purpose of me creating this page is to make it easier for
+        people (mainly me) to install and try out different themes without
+        having to manually download the theme and place it in the themes folder.
+      </p>
+    </section>
+
+    <section class="mt-8">
+      <ul class="list-none grid grid-cols-1 gap-6">
+        {
+          ThemesFile.map((theme) => (
+            <ThemeItem
+              title={theme.themeTitle}
+              description={theme.themeDescription}
+              installUrl={theme.themeInstallUrl}
+              author={theme.themeAuthor}
+              repo={theme.themeRepo}
+              themeThumbs={theme.themeThumbs}
+            />
+          ))
+        }
+      </ul>
+    </section>
+  </main>
+</Layout>

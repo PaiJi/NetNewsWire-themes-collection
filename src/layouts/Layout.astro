@@ -1,0 +1,55 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+import Footer from "./Footer";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="max-w-screen-lg mx-auto">
+    <header class="flex justify-between items-center px-4 py-6 border-b">
+      <h1 class="bg-white text-3xl">
+        <a
+          class="font-bold text-link hover:underline"
+          href="https://netnewswire.com/">NetNewsWire</a
+        > themes collection
+      </h1>
+
+      <div class="text-xl">
+        <a href="">Github</a>
+      </div>
+    </header>
+    <slot />
+    <Footer />
+  </body>
+</html>
+<style is:global>
+  :root {
+    --link-color: hsl(214, 65%, 55%);
+  }
+  html {
+    /* font-family: system-ui, sans-serif; */
+  }
+  code {
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      Liberation Mono,
+      DejaVu Sans Mono,
+      Bitstream Vera Sans Mono,
+      Courier New,
+      monospace;
+  }
+</style>

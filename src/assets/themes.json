@@ -1,0 +1,72 @@
+[
+  {
+    "themeTitle": "elegant-nnw",
+    "themeDescription": "A beautiful, elegant theme for NetNewsWire RSS reader.",
+    "themeThumbs": [
+      "https://github.com/ChangJun2019/elegant-nnw/raw/main/screenshots/elegant-theme-light.png",
+      "https://raw.githubusercontent.com/ChangJun2019/elegant-nnw/main/screenshots/elegant-theme-dark.png"
+    ],
+    "themeRepo": "https://github.com/ChangJun2019/elegant-nnw",
+    "themeAuthor": {
+      "name": "ChangJun2019",
+      "url": "https://github.com/ChangJun2019"
+    },
+    "themeInstallUrl": "https://github.com/ChangJun2019/elegant-nnw/releases/latest/download/Elegant.nnwtheme.zip"
+  },
+  {
+    "themeTitle": "Manu",
+    "themeDescription": "Inspired by Manuel's website, features a dignified serif, subtle box-shadows and highlighted links.",
+    "themeThumbs": [
+      "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/manu-light.png",
+      "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/manu-dark.png"
+    ],
+    "themeRepo": "https://github.com/stealsocks/NetNewsWire-themes#manu",
+    "themeAuthor": {
+      "name": "Judah",
+      "url": "https://github.com/stealsocks"
+    },
+    "themeInstallUrl": ""
+  },
+  {
+    "themeTitle": "system-ui",
+    "themeDescription": "Modern MacOS feel. SF Pro, blue links and slick font weights.",
+    "themeThumbs": [
+      "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/system-ui-lght.png",
+      "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/system-ui-dark.png"
+    ],
+    "themeRepo": "https://github.com/stealsocks/NetNewsWire-themes#system-ui",
+    "themeAuthor": {
+      "name": "Judah",
+      "url": "https://github.com/stealsocks"
+    },
+    "themeInstallUrl": ""
+  },
+  {
+    "themeTitle": "Royal",
+    "themeDescription": "System serif (New York), red underlines and justified text.",
+    "themeThumbs": [
+      "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/royal-light.png",
+      "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/royal-dark.png"
+    ],
+    "themeRepo": "https://github.com/stealsocks/NetNhttps://github.com/stealsocks/NetNewsWire-themes#royal",
+    "themeAuthor": {
+      "name": "Judah",
+      "url": "https://github.com/stealsocks"
+    },
+    "themeInstallUrl": ""
+  },
+  {
+    "themeTitle": "Slab",
+    "themeDescription": "Monochrome sections. Avenir and thick outlines.",
+    "themeThumbs": [
+      "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/slab-light.png",
+      "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/slab-dark.png"
+    ],
+    "themeRepo": "https://githubhttps://github.com/stealsocks/NetNewsWire-themes#slab",
+    "themeAuthor": {
+      "name": "Judah",
+      "url": "https://github.com/stealsocks"
+    },
+    "themeInstallUrl": ""
+  }
+]

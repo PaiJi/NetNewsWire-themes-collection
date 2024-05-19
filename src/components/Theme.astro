@@ -1,0 +1,58 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  repo: string;
+  author: {
+    name: string;
+    url: string;
+  };
+  installUrl: string;
+  themeThumbs: string[];
+}
+
+const { title, description, repo, installUrl, themeThumbs, author } =
+  Astro.props;
+
+import { EmblaCarousel } from "./react/Swiper";
+---
+
+<li class="border rounded-xl p-4 hover:bg">
+  <div class="flex gap-6">
+    <div class="w-1/2">
+      <EmblaCarousel themeThumbs={themeThumbs} client:load />
+    </div>
+
+    <div class="w-1/2 relative">
+      <a href={repo} class="inline-block">
+        <h2 class="text-3xl text-link">
+          {title}
+        </h2>
+      </a>
+      <div>
+        <a class="text-slate-700" href={author.url}>{author.name}</a>
+      </div>
+
+      <p class="mt-2">
+        {description}
+      </p>
+      <a
+        class="absolute bottom-0 text-base inline-block bg-link text-white w-full p-4 rounded-xl text-center font-bold"
+        href={`netnewswire://theme/add?url=${installUrl}`}>Install</a
+      >
+    </div>
+  </div>
+</li>
+
+<style is:global>
+  .embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+</style>
