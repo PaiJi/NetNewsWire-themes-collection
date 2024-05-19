@@ -16,6 +16,16 @@ All themes have been searched from the Internet, and we list their authors and o
 - Open a PR.
 - 🎉
 
+## Authors Dir
+
+- https://github.com/stealsocks/NetNewsWire-themes
+- https://github.com/ChangJun2019/elegant-nnw
+- https://github.com/stuartbreckenridge/NNWThemesBroadsheet
+- https://github.com/stuartbreckenridge/Illinois
+- https://github.com/curly210102/NNWThemesSspai
+- https://github.com/lkhrs/nnw-minutes
+- https://github.com/jsit/serif-gazette
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
