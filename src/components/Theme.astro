@@ -46,8 +46,7 @@ const buttonCls =
           >
           <a
             class="text-slate-700 flex items-center hover:underline text-sm"
-            href={repo}
-            ><img alt="GitHub Repo stars" src={starBadgeUrl} /></a
+            href={repo}><img alt="GitHub Repo stars" src={starBadgeUrl} /></a
           >
         </div>
 
@@ -60,6 +59,8 @@ const buttonCls =
         <a
           class={`${buttonCls} bg-link hover:bg-link-deep`}
           href={`netnewswire://theme/add?url=${installUrl}`}
+          data-umami-event="install"
+          data-umami-event-id={title}
         >
           <FaCloudDownloadAlt className="mr-2" />
           Install</a
@@ -68,6 +69,8 @@ const buttonCls =
         <a
           class={`${buttonCls} bg-slate-500 hover:bg-slate-600`}
           href={installUrl}
+          data-umami-event="download"
+          data-umami-event-id={title}
         >
           <FaFileZipper className="mr-2" />
           Download Zip</a
