@@ -45,7 +45,7 @@
   {
     "themeTitle": "Illinois",
     "themeDescription": "NetNewsWire plus a little bit of classic macOS.",
-    "themeThumbs": ["public/images/themes/illinois/illinois-mac.png"],
+    "themeThumbs": ["NetNewsWire-themes-collection/images/themes/illinois/illinois-mac.png"],
     "themeRepo": "https://github.com/stuartbreckenridge/Illinois",
     "themeAuthor": {
       "name": "stuartbreckenridge",
@@ -112,7 +112,7 @@
   {
     "themeTitle": "Minutes for NetNewsWire",
     "themeDescription": "Inspired by Simone Silvestroni's site, Minutes uses Seravek for headings and Iowan Old Style for body text.Based on the default theme for NetNewsWire. Font size has been bumped up 2px on macOS to bring the font size in line with Safari's reader view when using Iowan.",
-    "themeThumbs": ["public/images/themes/minutes/mac-white.png"],
+    "themeThumbs": ["NetNewsWire-themes-collection/images/themes/minutes/mac-white.png"],
     "themeRepo": "https://github.com/lkhrs/nnw-minutes",
     "themeAuthor": {
       "name": "Luke Harris",
@@ -123,7 +123,7 @@
   {
     "themeTitle": "serif-gazette",
     "themeDescription": "",
-    "themeThumbs": ["public/images/themes/serif-gazette/mac-white.png"],
+    "themeThumbs": ["NetNewsWire-themes-collection/images/themes/serif-gazette/mac-white.png"],
     "themeRepo": "https://github.com/jsit/serif-gazette",
     "themeAuthor": {
       "name": "Jay Sitter",
