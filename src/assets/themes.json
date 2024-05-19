@@ -45,7 +45,9 @@
   {
     "themeTitle": "Illinois",
     "themeDescription": "NetNewsWire plus a little bit of classic macOS.",
-    "themeThumbs": ["/NetNewsWire-themes-collection/images/themes/illinois/illinois-mac.png"],
+    "themeThumbs": [
+      "/NetNewsWire-themes-collection/images/themes/illinois/illinois-mac.png"
+    ],
     "themeRepo": "https://github.com/stuartbreckenridge/Illinois",
     "themeAuthor": {
       "name": "stuartbreckenridge",
@@ -112,7 +114,9 @@
   {
     "themeTitle": "Minutes for NetNewsWire",
     "themeDescription": "Inspired by Simone Silvestroni's site, Minutes uses Seravek for headings and Iowan Old Style for body text.Based on the default theme for NetNewsWire. Font size has been bumped up 2px on macOS to bring the font size in line with Safari's reader view when using Iowan.",
-    "themeThumbs": ["/NetNewsWire-themes-collection/images/themes/minutes/mac-white.png"],
+    "themeThumbs": [
+      "/NetNewsWire-themes-collection/images/themes/minutes/mac-white.png"
+    ],
     "themeRepo": "https://github.com/lkhrs/nnw-minutes",
     "themeAuthor": {
       "name": "Luke Harris",
@@ -123,12 +127,27 @@
   {
     "themeTitle": "serif-gazette",
     "themeDescription": "",
-    "themeThumbs": ["/NetNewsWire-themes-collection/images/themes/serif-gazette/mac-white.png"],
+    "themeThumbs": [
+      "/NetNewsWire-themes-collection/images/themes/serif-gazette/mac-white.png"
+    ],
     "themeRepo": "https://github.com/jsit/serif-gazette",
     "themeAuthor": {
       "name": "Jay Sitter",
       "url": "https://www.jaysitter.com/"
     },
     "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.1.0/serif-gazette.nnwtheme.zip"
+  },
+  {
+    "themeTitle": "nnw-allmine",
+    "themeDescription": "This is a personal customisation of the default NetNewsWire theme. It alters the fonts to a more Humanist style and sets the preferred code font to my favourite.",
+    "themeThumbs": [
+      "https://raw.githubusercontent.com/mikerhodes/nnw-allmine/main/images/screenshot.png"
+    ],
+    "themeRepo": "https://github.com/mikerhodes/nnw-allmine",
+    "themeAuthor": {
+      "name": "Mike Rhodes",
+      "url": "https://dx13.co.uk/articles/2024/03/10/tweaking-nnw-theme/"
+    },
+    "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.2.0/nnw-allmine-main.zip"
   }
 ]
