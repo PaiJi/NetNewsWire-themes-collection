@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa6";
 
 function Header() {
   return (
-    <header className="flex justify-between items-center py-6 border-b">
+    <header className="flex flex-col gap-4 md:flex-row justify-between items-center py-6 border-b">
       <h1 className="bg-white text-3xl">
         <a
           className="font-bold text-link hover:underline"
