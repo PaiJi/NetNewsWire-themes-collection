@@ -44,7 +44,11 @@ const buttonCls =
             class="text-slate-700 flex items-center hover:underline text-sm"
             href={author.url}><AiFillHome className="mr-1" />{author.name}</a
           >
-          <img alt="GitHub Repo stars" src={starBadgeUrl} />
+          <a
+            class="text-slate-700 flex items-center hover:underline text-sm"
+            href={repo}
+            ><img alt="GitHub Repo stars" src={starBadgeUrl} /></a
+          >
         </div>
 
         <p class="mt-4">
