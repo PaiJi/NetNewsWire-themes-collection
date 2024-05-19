@@ -14,6 +14,46 @@
     "themeInstallUrl": "https://github.com/ChangJun2019/elegant-nnw/releases/latest/download/Elegant.nnwtheme.zip"
   },
   {
+    "themeTitle": "NNWThemesSspai",
+    "themeDescription": "Theme for NetNewsWire, inspired by sspai.",
+    "themeThumbs": [
+      "https://user-images.githubusercontent.com/76864176/218252766-b2c0458c-6417-43df-9515-6c561c2eb0f2.png"
+    ],
+    "themeRepo": "https://github.com/curly210102/NNWThemesSspai",
+    "themeAuthor": {
+      "name": "Curly Brackets",
+      "url": "https://bento.me/curlybrackets"
+    },
+    "themeInstallUrl": "https://github.com/curly210102/NNWThemesSspai/releases/download/v1.1/sspai.nnwtheme.zip"
+  },
+  {
+    "themeTitle": "Broadsheet",
+    "themeDescription": "If NetNewsWire were a newspaper—and it if were, it’d be a quality read—it might look like this. The New York typeface is used throughout and the favicon has been removed.",
+    "themeThumbs": [
+      "https://user-images.githubusercontent.com/7046652/133397389-64748ba8-a396-4633-a356-1da8a97a82d9.png",
+      "https://user-images.githubusercontent.com/7046652/133399073-192830c5-d08b-48cc-ad52-23c18fe7c1cc.png",
+      "https://user-images.githubusercontent.com/7046652/133399484-acd6d66a-c3dd-4a98-a0a6-a717aac1a209.png",
+      "https://user-images.githubusercontent.com/7046652/133399533-1e776e29-280c-4da1-b158-b24145dd0eda.png"
+    ],
+    "themeRepo": "https://github.com/stuartbreckenridge/NNWThemesBroadsheet",
+    "themeAuthor": {
+      "name": "stuartbreckenridge",
+      "url": "https://stuartbreckenridge.net/"
+    },
+    "themeInstallUrl": "https://github.com/stuartbreckenridge/NNWThemesBroadsheet/archive/refs/tags/8.zip"
+  },
+  {
+    "themeTitle": "Illinois",
+    "themeDescription": "NetNewsWire plus a little bit of classic macOS.",
+    "themeThumbs": ["public/images/themes/illinois/illinois-mac.png"],
+    "themeRepo": "https://github.com/stuartbreckenridge/Illinois",
+    "themeAuthor": {
+      "name": "stuartbreckenridge",
+      "url": "https://stuartbreckenridge.net/"
+    },
+    "themeInstallUrl": "https://github.com/stuartbreckenridge/Illinois/archive/refs/tags/1.zip"
+  },
+  {
     "themeTitle": "Manu",
     "themeDescription": "Inspired by Manuel's website, features a dignified serif, subtle box-shadows and highlighted links.",
     "themeThumbs": [
