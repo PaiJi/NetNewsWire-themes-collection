@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        link: "var(--link-color)",
+        link: "hsl(var(--link-color), <alpha-value>)",
+        "link-deep": "hsl(var(--link-color-deep), <alpha-value>)",
       },
     },
   },
