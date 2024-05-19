@@ -25,7 +25,7 @@
       "name": "Judah",
       "url": "https://github.com/stealsocks"
     },
-    "themeInstallUrl": ""
+    "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.0.0/Manu.nnwtheme.zip"
   },
   {
     "themeTitle": "system-ui",
@@ -39,7 +39,7 @@
       "name": "Judah",
       "url": "https://github.com/stealsocks"
     },
-    "themeInstallUrl": ""
+    "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.0.0/system-ui.nnwtheme.zip"
   },
   {
     "themeTitle": "Royal",
@@ -48,12 +48,12 @@
       "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/royal-light.png",
       "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/royal-dark.png"
     ],
-    "themeRepo": "https://github.com/stealsocks/NetNhttps://github.com/stealsocks/NetNewsWire-themes#royal",
+    "themeRepo": "https://github.com/stealsocks/NetNewsWire-themes#royal",
     "themeAuthor": {
       "name": "Judah",
       "url": "https://github.com/stealsocks"
     },
-    "themeInstallUrl": ""
+    "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.0.0/Royal.nnwtheme.zip"
   },
   {
     "themeTitle": "Slab",
@@ -62,11 +62,11 @@
       "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/slab-light.png",
       "https://github.com/stealsocks/NetNewsWire-themes/raw/main/images/slab-dark.png"
     ],
-    "themeRepo": "https://githubhttps://github.com/stealsocks/NetNewsWire-themes#slab",
+    "themeRepo": "https://github.com/stealsocks/NetNewsWire-themes#slab",
     "themeAuthor": {
       "name": "Judah",
       "url": "https://github.com/stealsocks"
     },
-    "themeInstallUrl": ""
+    "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.0.0/Slab.nnwtheme.zip"
   }
 ]

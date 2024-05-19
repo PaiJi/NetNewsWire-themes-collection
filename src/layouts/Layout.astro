@@ -5,6 +5,7 @@ interface Props {
 
 const { title } = Astro.props;
 import Footer from "./Footer";
+import Header from "./Header";
 ---
 
 <!doctype html>
@@ -17,26 +18,16 @@ import Footer from "./Footer";
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="max-w-screen-lg mx-auto">
-    <header class="flex justify-between items-center px-4 py-6 border-b">
-      <h1 class="bg-white text-3xl">
-        <a
-          class="font-bold text-link hover:underline"
-          href="https://netnewswire.com/">NetNewsWire</a
-        > themes collection
-      </h1>
-
-      <div class="text-xl">
-        <a href="">Github</a>
-      </div>
-    </header>
+  <body class="max-w-screen-lg mx-1 md:mx-auto">
+    <Header />
     <slot />
     <Footer />
   </body>
 </html>
 <style is:global>
   :root {
-    --link-color: hsl(214, 65%, 55%);
+    --link-color: 214, 65%, 55%;
+    --link-color-deep: 214, 70%, 35%;
   }
   html {
     /* font-family: system-ui, sans-serif; */

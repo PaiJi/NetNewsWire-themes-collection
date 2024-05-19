@@ -15,31 +15,60 @@ const { title, description, repo, installUrl, themeThumbs, author } =
   Astro.props;
 
 import { EmblaCarousel } from "./react/Swiper";
+import { FaFileZipper } from "react-icons/fa6";
+import { AiFillHome } from "react-icons/ai";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+import { getRepoStarBadge } from "../utils/github";
+
+const starBadgeUrl = getRepoStarBadge(repo);
+
+const buttonCls =
+  "text-base inline-block text-white w-full p-4 rounded-xl font-bold flex items-center justify-center transition";
 ---
 
 <li class="border rounded-xl p-4 hover:bg">
-  <div class="flex gap-6">
-    <div class="w-1/2">
+  <div class="flex flex-col md:flex-row gap-6">
+    <div class="md:w-1/2">
       <EmblaCarousel themeThumbs={themeThumbs} client:load />
     </div>
 
-    <div class="w-1/2 relative">
-      <a href={repo} class="inline-block">
-        <h2 class="text-3xl text-link">
-          {title}
-        </h2>
-      </a>
+    <div class="md:w-1/2 relative flex flex-col justify-between">
       <div>
-        <a class="text-slate-700" href={author.url}>{author.name}</a>
+        <a href={repo} class="inline-block hover:underline text-link">
+          <h2 class="text-2xl md:text-3xl">
+            {title}
+          </h2>
+        </a>
+        <div class="flex gap-2 items-center mt-1">
+          <a
+            class="text-slate-700 flex items-center hover:underline text-sm"
+            href={author.url}><AiFillHome className="mr-1" />{author.name}</a
+          >
+          <img alt="GitHub Repo stars" src={starBadgeUrl} />
+        </div>
+
+        <p class="mt-4">
+          {description}
+        </p>
       </div>
 
-      <p class="mt-2">
-        {description}
-      </p>
-      <a
-        class="absolute bottom-0 text-base inline-block bg-link text-white w-full p-4 rounded-xl text-center font-bold"
-        href={`netnewswire://theme/add?url=${installUrl}`}>Install</a
-      >
+      <div class="flex gap-4">
+        <a
+          class={`${buttonCls} bg-link hover:bg-link-deep`}
+          href={`netnewswire://theme/add?url=${installUrl}`}
+        >
+          <FaCloudDownloadAlt className="mr-2" />
+          Install</a
+        >
+
+        <a
+          class={`${buttonCls} bg-slate-500 hover:bg-slate-600`}
+          href={installUrl}
+        >
+          <FaFileZipper className="mr-2" />
+          Download Zip</a
+        >
+      </div>
     </div>
   </div>
 </li>

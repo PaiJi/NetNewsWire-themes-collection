@@ -19,6 +19,7 @@
     "embla-carousel": "^8.1.1",
     "embla-carousel-autoplay": "^8.1.1",
     "embla-carousel-react": "^8.1.1",
+    "medium-zoom": "^1.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
