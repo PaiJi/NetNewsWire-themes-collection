@@ -12,10 +12,28 @@ import Header from "./Header";
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+    <meta
+      name="description"
+      content="a collection website of NetNewsWire themes."
+    />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <meta property="og:title" content="NetNewsWire Themes collection" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://paiji.github.io/NetNewsWire-themes-collection/"
+    />
+    <meta
+      property="og:image"
+      content="hhttps://netnewswire.com/images/nnw-6-icon-256.png?defeat=twitter-cache"
+    />
+    <meta property="og:site_name" content="NetNewsWire Themes collection" />
+    <meta
+      property="og:description"
+      content="a collection website of NetNewsWire themes."
+    />
     <title>{title}</title>
   </head>
   <body class="max-w-screen-lg mx-2 md:mx-auto">
@@ -39,7 +57,7 @@ import Header from "./Header";
         />
       )
     }
-    {import.meta.env.PROD &&(<script is:inline>
+    {import.meta.env.PROD && (<script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
