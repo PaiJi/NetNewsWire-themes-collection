@@ -108,5 +108,27 @@
       "url": "https://github.com/stealsocks"
     },
     "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.0.0/Slab.nnwtheme.zip"
+  },
+  {
+    "themeTitle": "Minutes for NetNewsWire",
+    "themeDescription": "Inspired by Simone Silvestroni's site, Minutes uses Seravek for headings and Iowan Old Style for body text.Based on the default theme for NetNewsWire. Font size has been bumped up 2px on macOS to bring the font size in line with Safari's reader view when using Iowan.",
+    "themeThumbs": ["public/images/themes/minutes/mac-white.png"],
+    "themeRepo": "https://github.com/lkhrs/nnw-minutes",
+    "themeAuthor": {
+      "name": "Luke Harris",
+      "url": "https://www.lkhrs.com/"
+    },
+    "themeInstallUrl": "https://github.com/lkhrs/nnw-minutes/archive/refs/tags/1.zip"
+  },
+  {
+    "themeTitle": "serif-gazette",
+    "themeDescription": "",
+    "themeThumbs": ["public/images/themes/serif-gazette/mac-white.png"],
+    "themeRepo": "https://github.com/jsit/serif-gazette",
+    "themeAuthor": {
+      "name": "Jay Sitter",
+      "url": "https://www.jaysitter.com/"
+    },
+    "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.1.0/serif-gazette.nnwtheme.zip"
   }
 ]
