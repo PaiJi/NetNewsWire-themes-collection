@@ -22,6 +22,21 @@ import Header from "./Header";
     <Header />
     <slot />
     <Footer />
+    <script
+      defer
+      src="https://umami.abo.network/script.js"
+      data-website-id="ff2faf40-71ed-43e7-84ed-ef8e0295201e"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GPL8LNKD63"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-GPL8LNKD63");
+    </script>
   </body>
 </html>
 <style is:global>
