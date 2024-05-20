@@ -9,7 +9,7 @@ interface Props {
   };
   installUrl: string;
   themeThumbs: string[];
-  popularCount: { install: string; download: string } | undefined;
+  trend: { install: string; download: string } | undefined;
 }
 
 import { EmblaCarousel } from "./react/Swiper";
@@ -18,18 +18,11 @@ import { AiFillHome } from "react-icons/ai";
 import { FaCloudDownloadAlt, FaFireAlt } from "react-icons/fa";
 import { getRepoStarBadge } from "../utils/github";
 
-const {
-  title,
-  description,
-  repo,
-  installUrl,
-  themeThumbs,
-  author,
-  popularCount,
-} = Astro.props;
+const { title, description, repo, installUrl, themeThumbs, author, trend } =
+  Astro.props;
 
-const totalPopularCount = popularCount
-  ? Number(popularCount.download || 0) + Number(popularCount.install || 0)
+const totalTrendCount = trend
+  ? Number(trend.download || 0) + Number(trend.install || 0)
   : null;
 
 const starBadgeUrl = getRepoStarBadge(repo);
@@ -57,10 +50,10 @@ const buttonCls =
           >
 
           {
-            totalPopularCount && (
+            totalTrendCount && (
               <span class="text-sm flex items-center">
                 <FaFireAlt className="mr-1" />
-                {totalPopularCount}
+                {totalTrendCount}
               </span>
             )
           }

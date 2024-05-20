@@ -2,10 +2,19 @@
 import Layout from "../layouts/Layout.astro";
 import ThemeItem from "../components/Theme.astro";
 import ThemesFile from "../assets/themes.json";
+import { getTrend } from "@utils/trend";
 
-const popularCountRes = await (
-  await fetch("https://netnewswire-themes-collection.worker.jipai.moe/")
-).json();
+const trendRes = await getTrend();
+const sorttedThemes = ThemesFile.sort((a, b) => {
+  const trendOfA =
+    Number(trendRes[a.themeTitle]?.install ?? 0) +
+    Number(trendRes[a.themeTitle]?.download ?? 0);
+  const trendOfB =
+    Number(trendRes[b.themeTitle]?.install ?? 0) +
+    Number(trendRes[b.themeTitle]?.download ?? 0);
+
+  return trendOfB - trendOfA;
+});
 ---
 
 <Layout title="NetNewsWire Themes collection">
@@ -23,7 +32,7 @@ const popularCountRes = await (
     <section class="mt-8">
       <ul class="list-none grid grid-cols-1 gap-6">
         {
-          ThemesFile.map((theme) => (
+          sorttedThemes.map((theme) => (
             <ThemeItem
               title={theme.themeTitle}
               description={theme.themeDescription}
@@ -31,7 +40,7 @@ const popularCountRes = await (
               author={theme.themeAuthor}
               repo={theme.themeRepo}
               themeThumbs={theme.themeThumbs}
-              popularCount={popularCountRes[theme.themeTitle]}
+              trend={trendRes[theme.themeTitle]}
             />
           ))
         }
