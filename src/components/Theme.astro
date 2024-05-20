@@ -9,16 +9,21 @@ interface Props {
   };
   installUrl: string;
   themeThumbs: string[];
+  trend: { install: string; download: string } | undefined;
 }
-
-const { title, description, repo, installUrl, themeThumbs, author } =
-  Astro.props;
 
 import { EmblaCarousel } from "./react/Swiper";
 import { FaFileZipper } from "react-icons/fa6";
 import { AiFillHome } from "react-icons/ai";
-import { FaCloudDownloadAlt } from "react-icons/fa";
+import { FaCloudDownloadAlt, FaFireAlt } from "react-icons/fa";
 import { getRepoStarBadge } from "../utils/github";
+
+const { title, description, repo, installUrl, themeThumbs, author, trend } =
+  Astro.props;
+
+const totalTrendCount = trend
+  ? Number(trend.download || 0) + Number(trend.install || 0)
+  : null;
 
 const starBadgeUrl = getRepoStarBadge(repo);
 
@@ -39,14 +44,22 @@ const buttonCls =
             {title}
           </h2>
         </a>
-        <div class="flex gap-2 items-center mt-1">
-          <a
-            class="text-slate-700 flex items-center hover:underline text-sm"
-            href={author.url}><AiFillHome className="mr-1" />{author.name}</a
+        <div class="flex gap-2 items-center mt-1 text-slate-700">
+          <a class="flex items-center hover:underline text-sm" href={author.url}
+            ><AiFillHome className="mr-1" />{author.name}</a
           >
-          <a
-            class="text-slate-700 flex items-center hover:underline text-sm"
-            href={repo}><img alt="GitHub Repo stars" src={starBadgeUrl} /></a
+
+          {
+            totalTrendCount && (
+              <span class="text-sm flex items-center">
+                <FaFireAlt className="mr-1" />
+                {totalTrendCount}
+              </span>
+            )
+          }
+
+          <a class="flex items-center hover:underline text-sm" href={repo}
+            ><img alt="GitHub Repo stars" src={starBadgeUrl} /></a
           >
         </div>
 

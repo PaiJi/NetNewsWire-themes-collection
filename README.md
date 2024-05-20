@@ -26,6 +26,7 @@ All themes have been searched from the Internet, and we list their authors and o
 - https://github.com/lkhrs/nnw-minutes
 - https://github.com/jsit/serif-gazette
 - https://github.com/mikerhodes/nnw-allmine
+- https://github.com/criphc/nnw-theme
 
 ## 🧞 Commands
 

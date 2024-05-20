@@ -2,6 +2,19 @@
 import Layout from "../layouts/Layout.astro";
 import ThemeItem from "../components/Theme.astro";
 import ThemesFile from "../assets/themes.json";
+import { getTrend } from "@utils/trend";
+
+const trendRes = await getTrend();
+const sorttedThemes = ThemesFile.sort((a, b) => {
+  const trendOfA =
+    Number(trendRes[a.themeTitle]?.install ?? 0) +
+    Number(trendRes[a.themeTitle]?.download ?? 0);
+  const trendOfB =
+    Number(trendRes[b.themeTitle]?.install ?? 0) +
+    Number(trendRes[b.themeTitle]?.download ?? 0);
+
+  return trendOfB - trendOfA;
+});
 ---
 
 <Layout title="NetNewsWire Themes collection">
@@ -19,7 +32,7 @@ import ThemesFile from "../assets/themes.json";
     <section class="mt-8">
       <ul class="list-none grid grid-cols-1 gap-6">
         {
-          ThemesFile.map((theme) => (
+          sorttedThemes.map((theme) => (
             <ThemeItem
               title={theme.themeTitle}
               description={theme.themeDescription}
@@ -27,6 +40,7 @@ import ThemesFile from "../assets/themes.json";
               author={theme.themeAuthor}
               repo={theme.themeRepo}
               themeThumbs={theme.themeThumbs}
+              trend={trendRes[theme.themeTitle]}
             />
           ))
         }
