@@ -149,5 +149,19 @@
       "url": "https://dx13.co.uk/articles/2024/03/10/tweaking-nnw-theme/"
     },
     "themeInstallUrl": "https://github.com/PaiJi/NetNewsWire-themes-collection/releases/download/1.2.0/nnw-allmine-main.zip"
+  },
+  {
+    "themeTitle": "red-nnw-theme",
+    "themeDescription": "the NetNewsWire default theme with underlined links and red for theme color.",
+    "themeThumbs": [
+      "https://github.com/criphc/nnw-theme/assets/27053399/5511bcb9-2da7-4ddc-9db2-9f3a9149d9fb",
+      "https://github.com/criphc/nnw-theme/assets/27053399/eaf2181f-14bd-405a-8e57-6d9cf1f3cac4"
+    ],
+    "themeRepo": "https://github.com/criphc/nnw-theme",
+    "themeAuthor": {
+      "name": "Criphc",
+      "url": "https://criphc.com"
+    },
+    "themeInstallUrl": "https://github.com/criphc/nnw-theme/raw/main/red-nnw-theme.nnwtheme.zip"
   }
 ]
