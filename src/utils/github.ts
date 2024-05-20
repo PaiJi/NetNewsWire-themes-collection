@@ -1,4 +1,4 @@
-const GITHUB_REPO_API_ENDPOINT = "https://api.github.com/repos";
+// const GITHUB_REPO_API_ENDPOINT = "https://api.github.com/repos";
 const GITHUB_REPO_STAR_BADGE = "https://img.shields.io/github/stars";
 
 export function getRepoStarBadge(repoUrl: string) {

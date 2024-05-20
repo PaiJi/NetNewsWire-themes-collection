@@ -1,4 +1,4 @@
-import React, { useRef, type ComponentProps, type RefCallback } from "react";
+import { useRef, type ComponentProps, type RefCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import mediumZoom, { type Zoom, type ZoomOptions } from "medium-zoom";
