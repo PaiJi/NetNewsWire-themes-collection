@@ -21,12 +21,12 @@ function Header() {
           <FaGithub />
         </a>
 
-        <a
+        {/* <a
           className="ml-8 transition hover:text-[#f26522] flex items-center"
           href={`https://github.com/PaiJi/NetNewsWire-themes-collection/rss.xml`}
         >
           <FaRss className="inline-block mr-1" />
-        </a>
+        </a> */}
       </div>
     </header>
   );
