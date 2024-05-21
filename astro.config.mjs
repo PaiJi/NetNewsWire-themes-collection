@@ -8,5 +8,5 @@ export default defineConfig({
   site: "https://paiji.github.io",
   base: "/NetNewsWire-themes-collection",
 
-  integrations: [tailwind(),  react()]
+  integrations: [tailwind(), react()],
 });
