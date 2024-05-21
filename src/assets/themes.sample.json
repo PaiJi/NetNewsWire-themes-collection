@@ -1,6 +1,8 @@
 {
+  "id": "Use lowercase English names of theme, replace space with -",
   "themeTitle": "",
   "themeDescription": "",
+  "pubDate": "ISO date string like: 2024-05-21T17:42:32.939Z, just run `new Date().toISOString()` in browser's F12 console, if you dont know what's this, keep it blank",
   "themeThumbs": [],
   "themeRepo": "",
   "themeAuthor": {

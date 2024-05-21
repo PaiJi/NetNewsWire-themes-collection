@@ -6,6 +6,7 @@ interface Props {
 const { title } = Astro.props;
 import Footer from "./Footer";
 import Header from "./Header";
+import GA from "./GA.astro";
 ---
 
 <!doctype html>
@@ -34,7 +35,16 @@ import Header from "./Header";
       property="og:description"
       content="a collection website of NetNewsWire themes."
     />
-    <meta name="google-site-verification" content="8tUkVhZkD9TP5wZgsCSA-APg9mDyoIv6f45IKYHlVSI" />
+    <meta
+      name="google-site-verification"
+      content="8tUkVhZkD9TP5wZgsCSA-APg9mDyoIv6f45IKYHlVSI"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="NetNewsWire Themes collection"
+      href="https://github.com/PaiJi/NetNewsWire-themes-collection/rss.xml"
+    />
     <title>{title}</title>
   </head>
   <body class="max-w-screen-lg mx-2 md:mx-auto">
@@ -60,15 +70,7 @@ import Header from "./Header";
         />
       )
     }
-    {import.meta.env.PROD && (<script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-GPL8LNKD63");
-    </script>)}
+    {import.meta.env.PROD && <GA />}
   </body>
 </html>
 <style is:global>
@@ -78,6 +80,7 @@ import Header from "./Header";
   }
   html {
     /* font-family: system-ui, sans-serif; */
+    scroll-behavior: smooth;
   }
   code {
     font-family:

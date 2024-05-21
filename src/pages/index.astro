@@ -34,6 +34,7 @@ const sorttedThemes = ThemesFile.sort((a, b) => {
         {
           sorttedThemes.map((theme) => (
             <ThemeItem
+              id={theme.id}
               title={theme.themeTitle}
               description={theme.themeDescription}
               installUrl={theme.themeInstallUrl}

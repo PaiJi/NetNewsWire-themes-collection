@@ -1,5 +1,6 @@
 ---
 interface Props {
+  id: string;
   title: string;
   description: string;
   repo: string;
@@ -18,7 +19,7 @@ import { AiFillHome } from "react-icons/ai";
 import { FaCloudDownloadAlt, FaFireAlt } from "react-icons/fa";
 import { getRepoStarBadge } from "../utils/github";
 
-const { title, description, repo, installUrl, themeThumbs, author, trend } =
+const { id, title, description, repo, installUrl, themeThumbs, author, trend } =
   Astro.props;
 
 const totalTrendCount = trend
@@ -31,7 +32,7 @@ const buttonCls =
   "text-base inline-block text-white w-full p-4 rounded-xl font-bold flex items-center justify-center transition";
 ---
 
-<li class="border rounded-xl p-4 hover:bg">
+<li id={id} class="border rounded-xl p-4 hover:bg">
   <div class="flex flex-col md:flex-row gap-6">
     <div class="md:w-1/2">
       <EmblaCarousel themeThumbs={themeThumbs} client:load />
