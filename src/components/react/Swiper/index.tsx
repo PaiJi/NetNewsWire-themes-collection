@@ -11,7 +11,11 @@ export function EmblaCarousel({ themeThumbs }: { themeThumbs: string[] }) {
       <div className="embla__container h-48 md:h-72">
         {themeThumbs.map((thumb) => (
           <div className="embla__slide text-center" key={thumb}>
-            <ImageZoom src={thumb} className="h-full inline-block" />
+            <ImageZoom
+              loading="lazy"
+              src={thumb}
+              className="h-full inline-block"
+            />
           </div>
         ))}
       </div>
