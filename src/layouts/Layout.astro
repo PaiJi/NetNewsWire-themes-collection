@@ -6,6 +6,7 @@ interface Props {
 const { title } = Astro.props;
 import Footer from "./Footer";
 import Header from "./Header";
+import GA from "./GA.astro";
 ---
 
 <!doctype html>
@@ -60,15 +61,7 @@ import Header from "./Header";
         />
       )
     }
-    {import.meta.env.PROD && (<script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-GPL8LNKD63");
-    </script>)}
+    {import.meta.env.PROD && <GA />}
   </body>
 </html>
 <style is:global>
