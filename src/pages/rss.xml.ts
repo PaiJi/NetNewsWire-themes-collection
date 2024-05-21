@@ -12,7 +12,7 @@ export function GET(context: APIContext) {
     items: ThemesFile.map((theme) => ({
       title: `New Theme: ${theme.themeTitle}`,
       pubDate: new Date(theme.pubDate),
-      description: `<img align='center' src=${theme.themeThumbs[0]} /><br/><p>${theme.themeDescription}</p><br/><a href="https://paiji.github.io/NetNewsWire-themes-collection#${theme.id}?utm_source=rss-feed">View website</a>`,
+      description: `<img align='center' src=${theme.themeThumbs[0]} /><br/><p>${theme.themeDescription}</p><br/><a href="https://paiji.github.io/NetNewsWire-themes-collection#${theme.id}">View website</a>`,
       link: `https://paiji.github.io/NetNewsWire-themes-collection#${theme.id}`,
     })),
     customData: `<language>en-us</language>`,
