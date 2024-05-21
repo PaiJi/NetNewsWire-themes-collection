@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaRss } from "react-icons/fa6";
 
 function Header() {
   return (
@@ -13,12 +13,19 @@ function Header() {
         themes collection
       </h1>
 
-      <div className="text-2xl">
+      <div className="text-2xl flex items-center">
         <a
           href="https://github.com/PaiJi/NetNewsWire-themes-collection"
           className="hover:text-link transition"
         >
           <FaGithub />
+        </a>
+
+        <a
+          className="ml-8 transition hover:text-[#f26522] flex items-center"
+          href={`https://github.com/PaiJi/NetNewsWire-themes-collection/rss.xml`}
+        >
+          <FaRss className="inline-block mr-1" />
         </a>
       </div>
     </header>
