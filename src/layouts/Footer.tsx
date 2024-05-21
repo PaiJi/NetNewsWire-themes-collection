@@ -7,7 +7,7 @@ function Footer() {
       <div className="flex items-center">
         <a
           className="transition hover:text-[#f26522] flex items-center text-sm"
-          href={`https://github.com/PaiJi/NetNewsWire-themes-collection/rss.xml`}
+          href={`hhttps://paiji.github.io/NetNewsWire-themes-collection/rss.xml`}
           data-umami-event="subscribe"
         >
           <FaRss className="inline-block mr-1" /> RSS
