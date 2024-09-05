@@ -18,7 +18,7 @@ All themes have been searched from the Internet, and we list their authors and o
 
 ## Authors Dir
 
-- https://github.com/stealsocks/NetNewsWire-themes
+- https://github.com/joodaloop/NetNewsWire-themes
 - https://github.com/ChangJun2019/elegant-nnw
 - https://github.com/stuartbreckenridge/NNWThemesBroadsheet
 - https://github.com/stuartbreckenridge/Illinois
