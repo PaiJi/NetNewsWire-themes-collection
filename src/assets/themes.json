@@ -187,5 +187,21 @@
       "url": "https://criphc.com"
     },
     "themeInstallUrl": "https://github.com/criphc/nnw-theme/raw/main/red-nnw-theme.nnwtheme.zip"
+  },
+  {
+    "id": "default-serif",
+    "themeTitle": "Default Serif",
+    "themeDescription": "The default NetNewsWire theme, but with Apple's default serif typeface New York.",
+    "pubDate": "2024-11-15T04:56:54.479Z",
+    "themeThumbs": [
+      "https://raw.githubusercontent.com/mischreiber/nnw-themes/refs/tags/v0.1/images/Default-Serif-light.png",
+      "https://raw.githubusercontent.com/mischreiber/nnw-themes/refs/tags/v0.1/images/Default-Serif-dark.png"
+    ],
+    "themeRepo": "https://github.com/mischreiber/nnw-themes#default-serif",
+    "themeAuthor": {
+      "name": "Mike Schreiber",
+      "url": "https://mikeschreiber.me"
+    },
+    "themeInstallUrl": "https://github.com/mischreiber/nnw-themes/releases/download/v0.1/Default-Serif.nnwtheme.zip"
   }
 ]
