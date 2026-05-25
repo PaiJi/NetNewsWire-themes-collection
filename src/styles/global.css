@@ -1,0 +1,18 @@
+@config "../../tailwind.config.mjs";
+@import "tailwindcss";
+
+@theme {
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+}
+
+@layer base {
+  *,
+  ::before,
+  ::after,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: #e5e7eb;
+  }
+}
