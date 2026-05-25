@@ -1,5 +1,5 @@
-@config "../../tailwind.config.mjs";
 @import "tailwindcss";
+@config "../../tailwind.config.mjs";
 
 @theme {
   --color-slate-500: #64748b;
