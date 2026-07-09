@@ -203,5 +203,21 @@
       "url": "https://mikeschreiber.me"
     },
     "themeInstallUrl": "https://github.com/mischreiber/nnw-themes/releases/download/v0.1/Default-Serif.nnwtheme.zip"
+  },
+  {
+    "id": "ember",
+    "themeTitle": "Ember",
+    "themeDescription": "A warm, editorial theme for NetNewsWire that feels like a magazine using Apple system fonts, drop caps, and big headlines.",
+    "pubDate": "2026-07-09T06:31:39.261Z",
+    "themeThumbs": [
+      "https://ember.marquard.org/assets/ember-macos-light.png",
+      "https://ember.marquard.org/assets/ember-macos-dark.png"
+    ],
+    "themeRepo": "https://github.com/dave-atx/ember-nnw-theme",
+    "themeAuthor": {
+      "name": "Dave Marquard",
+      "url": "https://ember.marquard.org"
+    },
+    "themeInstallUrl": "https://github.com/dave-atx/ember-nnw-theme/releases/latest/download/Ember.nnwtheme.zip"
   }
 ]
