@@ -49,21 +49,6 @@
     "themeInstallUrl": "https://github.com/stuartbreckenridge/NNWThemesBroadsheet/archive/refs/tags/8.zip"
   },
   {
-    "id": "illinois",
-    "themeTitle": "Illinois",
-    "themeDescription": "NetNewsWire plus a little bit of classic macOS.",
-    "pubDate": "2024-05-19T15:10:49.000Z",
-    "themeThumbs": [
-      "/NetNewsWire-themes-collection/images/themes/illinois/illinois-mac.png"
-    ],
-    "themeRepo": "https://github.com/stuartbreckenridge/Illinois",
-    "themeAuthor": {
-      "name": "stuartbreckenridge",
-      "url": "https://stuartbreckenridge.net/"
-    },
-    "themeInstallUrl": "https://github.com/stuartbreckenridge/Illinois/archive/refs/tags/1.zip"
-  },
-  {
     "id": "manu",
     "themeTitle": "Manu",
     "themeDescription": "Inspired by Manuel's website, features a dignified serif, subtle box-shadows and highlighted links.",
