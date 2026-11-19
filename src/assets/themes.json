@@ -219,5 +219,21 @@
       "url": "https://ember.marquard.org"
     },
     "themeInstallUrl": "https://github.com/dave-atx/ember-nnw-theme/releases/latest/download/Ember.nnwtheme.zip"
+  },
+  {
+    "id": "calm",
+    "themeTitle": "Calm",
+    "themeDescription": "Not everything is meant to be scrolled. A NetNewsWire theme for long articles you want to enjoy, not rush, with a reading map that adapts to each article.",
+    "pubDate": "2026-05-18T04:19:50.000Z",
+    "themeThumbs": [
+      "https://raw.githubusercontent.com/raisulchowdhury/calm-nnwtheme/main/assets/screenshots/calm-light.png",
+      "https://raw.githubusercontent.com/raisulchowdhury/calm-nnwtheme/main/assets/screenshots/calm-dark.png"
+    ],
+    "themeRepo": "https://github.com/raisulchowdhury/calm-nnwtheme",
+    "themeAuthor": {
+      "name": "Raisul Chowdhury",
+      "url": "https://raisul.xyz"
+    },
+    "themeInstallUrl": "https://github.com/raisulchowdhury/calm-nnwtheme/releases/latest/download/Calm.nnwtheme.zip"
   }
 ]
