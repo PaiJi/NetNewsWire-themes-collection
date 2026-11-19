@@ -210,8 +210,8 @@
     "themeDescription": "A warm, editorial theme for NetNewsWire that feels like a magazine using Apple system fonts, drop caps, and big headlines.",
     "pubDate": "2026-07-09T06:31:39.261Z",
     "themeThumbs": [
-      "https://ember.marquard.org/assets/ember-macos-light.png",
-      "https://ember.marquard.org/assets/ember-macos-dark.png"
+      "https://ember.marquard.org/assets/devices/mac-light.webp",
+      "https://ember.marquard.org/assets/devices/mac-dark.webp"
     ],
     "themeRepo": "https://github.com/dave-atx/ember-nnw-theme",
     "themeAuthor": {
